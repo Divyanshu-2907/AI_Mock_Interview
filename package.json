@@ -3,18 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@ai-sdk/google": "^1.2.19",
+    "@ai-sdk/openai": "^1.0.24",
+    "@ai-sdk/provider-utils": "^4.0.1",
+    "@ai-sdk/ui-utils": "^1.2.11",
     "@hookform/resolvers": "^5.1.1",
     "@radix-ui/react-label": "^2.1.7",
-    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-progress": "^1.1.8",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@reduxjs/toolkit": "^2.11.2",
+    "@types/uuid": "^10.0.0",
+    "@vapi-ai/server-sdk": "^0.11.0",
     "@vapi-ai/web": "^2.3.5",
-    "ai": "^4.3.16",
+    "ai": "^3.4.22",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
@@ -26,10 +33,12 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.57.0",
+    "react-redux": "^9.2.0",
     "sonner": "^2.0.5",
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7",
-    "zod": "^3.25.61"
+    "uuid": "^13.0.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
